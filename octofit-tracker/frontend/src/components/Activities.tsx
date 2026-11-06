@@ -13,4 +13,5 @@ export default function Activities() {
       renderItem={(activity) => `${activity.type}: ${activity.minutes} minutes, ${activity.points} points`}
     />
   );
+  
 }
